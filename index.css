@@ -48,6 +48,7 @@ footer{
 footer a{
     text-decoration: none;
     color: #005450;
+    display:inline-block;
     
 }
 footer a:hover{
