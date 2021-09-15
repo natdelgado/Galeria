@@ -45,3 +45,13 @@ footer{
     width:100%;
     margin-top:20px;
 }
+footer a{
+    text-decoration: none;
+    color: #005450;
+    
+}
+footer a:hover{
+    background-color:black;
+    color: white;
+
+}
