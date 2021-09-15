@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    background-image: linear-gradient(45deg, black , grey, black);
+    color:#005450;
+    text-align: center;
+}
+h1{   
+    display: block;
+    font-variant:small-caps;
+    font-family: 'Anton', sans-serif;
+    font-size: 70px;
+    letter-spacing: 20px;
+    text-shadow:5px 10px 5px white, 0 0 5px rgb(80, 80, 80),-1px 0 #009991, 0 1px #009991, 1px 0 #009991, 0 -1px #009991; 
+}
+.fila{
+    display: flex;
+    justify-content: center;
+}
+.card {
+    margin: 5px;
+    width: 250px;
+    height: auto;
+    background-color:white;
+    border:3px solid #005450;
+    opacity: 0.5;
+    box-shadow: 0 4px 8px 0 #005450, 0 6px 20px 0 #005450;
+}
+
+.card:hover {
+opacity: 1;
+}
+
+.card img {
+width: 100%;
+height: auto;
+}
+
+.descri {
+padding: 10px;
+text-align: center;
+}
+footer{
+    background-color:  #cccccc;
+    position:fixed;
+    width:100%;
+    justify-content: flex-end;
+}

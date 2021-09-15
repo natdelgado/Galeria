@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    background-image: linear-gradient(45deg, black , grey, black);
+    color:#005450;
+    text-align: center;
+    display:inline-block;
+    align-items: center;
+}
+h1{   
+    display: block;
+    font-variant:small-caps;
+    font-family: 'Anton', sans-serif;
+    font-size: 70px;
+    letter-spacing: 20px;
+    text-shadow:5px 10px 5px white, 0 0 5px rgb(80, 80, 80),-1px 0 #009991, 0 1px #009991, 1px 0 #009991, 0 -1px #009991; ;
+
+}
+ 
+#centrado{
+    margin: 100px;
+    padding: 10px;
+}
+.fila{
+    display:flex;
+    justify-content: center;
+}
+.fila > .rombo{
+    width: 200px;
+    height: 200px;
+    background-color:#005450;
+    border:3px solid #005450;
+    margin-right:85px;
+    transform: rotate(45deg);
+    opacity: 0.5;
+    
+}
+.rombo:hover{
+    background-color:white;
+    transform:rotate(45deg);
+    transform:scale(1.5);
+    transition: all 1s;
+    z-index: 2;
+    opacity: 1;
+}
+#fila2{
+    margin-top: -10px;
+}
+img{
+    width: 200px;
+    height: 200px; 
+}
